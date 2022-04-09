@@ -4,6 +4,20 @@
 .container{
     width: 100%;
     height: auto;
-    border: 0.5px;
+    border: 0.5px solid gray;
     background-color: rgb(220, 215, 215);
+}
+.row{
+    display: block;
+    width: 90%;
+    height: 300px;
+    margin: 10px;
+}
+.col{
+    display: inline-block;
+    width: 45%;
+    height: 280px;
+    margin: 10px;
+    float: left;
+    border: 1px solid red;
 }
